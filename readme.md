@@ -38,6 +38,7 @@ git checkout master
 ## linux 命令
 vi 文件名  编辑文件
 
+
 ##ceshi fea 解决冲突
 测试解决冲突：
 
@@ -45,5 +46,4 @@ vi 文件名  编辑文件
 
 ## linux 命令
 vi 文件名 辑文件
->>>>>>> fea
 :wq 保存退出
