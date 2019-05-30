@@ -1,3 +1,16 @@
-bean:
-  name: springboot
-  age:  20
+logging:
+  level:
+    root: info
+    com.xiao.blog: debug
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+
+
+
+
