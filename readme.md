@@ -26,7 +26,8 @@
 14. git branch ：查看分支
 15. git merge dev分支name :   合并dev分支到master上
 16. git branch -d dev分支name
-17.  
+17. git status ;cat readme.md;vi readme.md ,重新提交
+18. git log --graph 查看分支合并图 
  
 ##ceshi
 Git is a distributed version control system.
