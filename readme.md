@@ -20,7 +20,9 @@
 10. git remote add origin github地址  本地库链接远程库（需要在远程库上添加秘钥）
 11. git push -u origin master,将master分支推送到远程origin上。第一次推送加上-u，不但会把本地的master分支内容推送到远程新的master上
     还会把本地master分支和远程的master分支关联
-
+12. git clone https://github.com/xiaoxiaoxiansheng/blog.git
+13. git checkout -b dev(创建并切换到dev分支等同创建： git branch dev； 切换:git checkout dev)
+14. 
  
 ##ceshi
 Git is a distributed version control system.
