@@ -1,0 +1,66 @@
+2019-05-30 17:30:09 -Starting BlogApplication on liuj-PC with PID 6084 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:30:10 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 17:30:10 -No active profile set, falling back to default profiles: default
+2019-05-30 17:30:10 -Tomcat initialized with port(s): 8080 (http)
+2019-05-30 17:30:10 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:30:10 -Starting service [Tomcat]
+2019-05-30 17:30:10 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-30 17:30:10 -Initializing Spring embedded WebApplicationContext
+2019-05-30 17:30:10 -Root WebApplicationContext: initialization completed in 733 ms
+2019-05-30 17:30:10 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 17:30:11 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:30:11 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-30 17:30:11 -Started BlogApplication in 1.584 seconds (JVM running for 2.081)
+2019-05-30 17:30:57 -Starting BlogApplication on liuj-PC with PID 8948 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:30:57 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 17:30:57 -No active profile set, falling back to default profiles: default
+2019-05-30 17:30:58 -Started BlogApplication in 1.553 seconds (JVM running for 2.059)
+2019-05-30 17:31:22 -Starting BlogApplication on liuj-PC with PID 5928 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:31:23 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-30 17:31:23 -No active profile set, falling back to default profiles: default
+2019-05-30 17:31:23 -Tomcat initialized with port(s): 8080 (http)
+2019-05-30 17:31:23 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:31:23 -Starting service [Tomcat]
+2019-05-30 17:31:23 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-30 17:31:23 -Initializing Spring embedded WebApplicationContext
+2019-05-30 17:31:23 -Root WebApplicationContext: initialization completed in 745 ms
+2019-05-30 17:31:23 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 17:31:24 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:31:24 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-30 17:31:24 -Started BlogApplication in 1.532 seconds (JVM running for 2.006)
+2019-05-30 17:32:45 -Starting BlogApplication on liuj-PC with PID 7116 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:32:45 -No active profile set, falling back to default profiles: default
+2019-05-30 17:32:46 -Tomcat initialized with port(s): 8080 (http)
+2019-05-30 17:32:46 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:32:46 -Starting service [Tomcat]
+2019-05-30 17:32:46 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-30 17:32:46 -Initializing Spring embedded WebApplicationContext
+2019-05-30 17:32:46 -Root WebApplicationContext: initialization completed in 732 ms
+2019-05-30 17:32:46 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 17:32:46 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:32:46 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-30 17:32:46 -Started BlogApplication in 1.523 seconds (JVM running for 1.985)
+2019-05-30 17:33:54 -Starting BlogApplication on liuj-PC with PID 7628 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:33:54 -No active profile set, falling back to default profiles: default
+2019-05-30 17:33:55 -Tomcat initialized with port(s): 8080 (http)
+2019-05-30 17:33:55 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:33:55 -Starting service [Tomcat]
+2019-05-30 17:33:55 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-30 17:33:55 -Initializing Spring embedded WebApplicationContext
+2019-05-30 17:33:55 -Root WebApplicationContext: initialization completed in 692 ms
+2019-05-30 17:33:55 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 17:33:55 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:33:55 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-30 17:33:55 -Started BlogApplication in 1.513 seconds (JVM running for 2.004)
+2019-05-30 17:45:26 -Starting BlogApplication on liuj-PC with PID 8668 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-30 17:45:26 -No active profile set, falling back to default profiles: default
+2019-05-30 17:45:27 -Tomcat initialized with port(s): 8080 (http)
+2019-05-30 17:45:27 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:45:27 -Starting service [Tomcat]
+2019-05-30 17:45:27 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-30 17:45:27 -Initializing Spring embedded WebApplicationContext
+2019-05-30 17:45:27 -Root WebApplicationContext: initialization completed in 944 ms
+2019-05-30 17:45:27 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 17:45:27 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-30 17:45:27 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-30 17:45:27 -Started BlogApplication in 2.015 seconds (JVM running for 2.487)
