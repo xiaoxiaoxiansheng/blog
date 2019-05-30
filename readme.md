@@ -23,14 +23,27 @@
     还会把本地master分支和远程的master分支关联
 12. git clone https://github.com/xiaoxiaoxiansheng/blog.git
 13. git checkout -b dev(创建并切换到dev分支等同创建： git branch dev； 切换:git checkout dev)
-14. 
+14. git branch ：查看分支
+15. git merge dev分支name :   合并dev分支到master上
+16. git branch -d dev分支name
+17.  
  
 ##ceshi
 Git is a distributed version control system.
 Git is free software.
+
 ## ceshi master 
 git checkout master
 
 ## linux 命令
 vi 文件名  编辑文件
+
+##ceshi fea 解决冲突
+测试解决冲突：
+
+:wq
+
+## linux 命令
+vi 文件名 辑文件
+>>>>>>> fea
 :wq 保存退出
