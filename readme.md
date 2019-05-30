@@ -1,4 +1,5 @@
 #上传已有项目到github
+
 1. git -init
 2. git add .
 3. git commit -m "first commit"
@@ -27,6 +28,8 @@
 ##ceshi
 Git is a distributed version control system.
 Git is free software.
+## ceshi master 
+git checkout master
 
 ## linux 命令
 vi 文件名  编辑文件
