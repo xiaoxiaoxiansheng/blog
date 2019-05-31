@@ -17875,3 +17875,392 @@ Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The serv
 2019-05-31 13:35:02 -Shutting down ExecutorService 'applicationTaskExecutor'
 2019-05-31 13:35:02 -{dataSource-1} closing ...
 2019-05-31 13:35:02 -{dataSource-1} closed
+2019-05-31 14:23:54 -Starting MybatisApplicationTests on liuj-PC with PID 9064 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:23:54 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:23:54 -No active profile set, falling back to default profiles: default
+2019-05-31 14:23:55 -Init DruidDataSource
+2019-05-31 14:23:55 -{dataSource-1} inited
+2019-05-31 14:23:56 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:23:56 -Started MybatisApplicationTests in 2.941 seconds (JVM running for 3.742)
+2019-05-31 14:23:57 -==>  Preparing: insert into user { `name`, `email` } values { ?, ? } 
+2019-05-31 14:23:57 -==> Parameters: 依云(String), 45216325@qq.com(String)
+2019-05-31 14:23:57 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:23:57 -{dataSource-1} closing ...
+2019-05-31 14:23:57 -{dataSource-1} closed
+2019-05-31 14:27:09 -Starting MybatisApplicationTests on liuj-PC with PID 6976 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:27:09 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:27:09 -No active profile set, falling back to default profiles: default
+2019-05-31 14:27:10 -Init DruidDataSource
+2019-05-31 14:27:10 -{dataSource-1} inited
+2019-05-31 14:27:11 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:27:11 -Started MybatisApplicationTests in 2.773 seconds (JVM running for 3.572)
+2019-05-31 14:27:11 -==>  Preparing: insert into user { `name`, `email` } values ( ?, ? ) 
+2019-05-31 14:27:12 -==> Parameters: 依云(String), 45216325@qq.com(String)
+2019-05-31 14:27:12 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:27:12 -{dataSource-1} closing ...
+2019-05-31 14:27:12 -{dataSource-1} closed
+2019-05-31 14:28:55 -Starting MybatisApplicationTests on liuj-PC with PID 5612 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:28:55 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:28:55 -No active profile set, falling back to default profiles: default
+2019-05-31 14:28:56 -Init DruidDataSource
+2019-05-31 14:28:57 -{dataSource-1} inited
+2019-05-31 14:28:57 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:28:58 -Started MybatisApplicationTests in 2.822 seconds (JVM running for 3.677)
+2019-05-31 14:28:58 -==>  Preparing: insert into user { `id`, `name`, `email` } values ( ?, ?, ? ) 
+2019-05-31 14:28:58 -==> Parameters: 1003(Integer), 依云(String), 45216325@qq.com(String)
+2019-05-31 14:28:58 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:28:58 -{dataSource-1} closing ...
+2019-05-31 14:28:58 -{dataSource-1} closed
+2019-05-31 14:29:33 -Starting MybatisApplicationTests on liuj-PC with PID 7132 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:29:33 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:29:33 -No active profile set, falling back to default profiles: default
+2019-05-31 14:29:34 -Init DruidDataSource
+2019-05-31 14:29:34 -{dataSource-1} inited
+2019-05-31 14:29:35 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:29:36 -Started MybatisApplicationTests in 2.893 seconds (JVM running for 3.713)
+2019-05-31 14:29:36 -==>  Preparing: insert into user { `name`, `email` } values ( ?, ? ) 
+2019-05-31 14:29:36 -==> Parameters: 依云(String), 45216325@qq.com(String)
+2019-05-31 14:29:36 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:29:36 -{dataSource-1} closing ...
+2019-05-31 14:29:36 -{dataSource-1} closed
+2019-05-31 14:30:12 -Starting MybatisApplicationTests on liuj-PC with PID 8820 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:30:12 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:30:12 -No active profile set, falling back to default profiles: default
+2019-05-31 14:30:13 -Init DruidDataSource
+2019-05-31 14:30:13 -{dataSource-1} inited
+2019-05-31 14:30:14 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:30:15 -Started MybatisApplicationTests in 3.078 seconds (JVM running for 3.878)
+2019-05-31 14:30:15 -==>  Preparing: insert into user { `name`, `email` } values ( ?, ? ) 
+2019-05-31 14:30:15 -==> Parameters: yiyun(String), 45216325@qq.com(String)
+2019-05-31 14:30:15 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:30:15 -{dataSource-1} closing ...
+2019-05-31 14:30:15 -{dataSource-1} closed
+2019-05-31 14:38:08 -Starting MybatisApplicationTests on liuj-PC with PID 9112 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:38:08 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:38:08 -No active profile set, falling back to default profiles: default
+2019-05-31 14:38:09 -Init DruidDataSource
+2019-05-31 14:38:10 -{dataSource-1} inited
+2019-05-31 14:38:10 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:38:11 -Started MybatisApplicationTests in 3.026 seconds (JVM running for 3.814)
+2019-05-31 14:38:11 -==>  Preparing: insert into user ( `name`, `email` ) values ( ?, ? ) 
+2019-05-31 14:38:11 -==> Parameters: yiyun(String), 45216325@qq.com(String)
+2019-05-31 14:38:11 -<==    Updates: 1
+2019-05-31 14:38:11 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:38:11 -{dataSource-1} closing ...
+2019-05-31 14:38:11 -{dataSource-1} closed
+2019-05-31 14:39:24 -Starting MybatisApplicationTests on liuj-PC with PID 6076 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:39:24 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:39:24 -No active profile set, falling back to default profiles: default
+2019-05-31 14:39:25 -Init DruidDataSource
+2019-05-31 14:39:25 -{dataSource-1} inited
+2019-05-31 14:39:26 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:39:26 -Started MybatisApplicationTests in 2.834 seconds (JVM running for 3.641)
+2019-05-31 14:39:26 -==>  Preparing: insert into user ( `name`, `email` ) values ( ?, ? ) 
+2019-05-31 14:39:26 -==> Parameters: wuya(String), 555555@qq.com(String)
+2019-05-31 14:39:26 -<==    Updates: 1
+2019-05-31 14:39:26 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:39:26 -{dataSource-1} closing ...
+2019-05-31 14:39:26 -{dataSource-1} closed
+2019-05-31 14:39:49 -Starting MybatisApplicationTests on liuj-PC with PID 2936 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:39:49 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:39:49 -No active profile set, falling back to default profiles: default
+2019-05-31 14:39:50 -Init DruidDataSource
+2019-05-31 14:39:50 -{dataSource-1} inited
+2019-05-31 14:39:51 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:39:52 -Started MybatisApplicationTests in 2.833 seconds (JVM running for 3.62)
+2019-05-31 14:39:52 -==>  Preparing: insert into user ( `name`, `email` ) values ( ?, ? ) 
+2019-05-31 14:39:52 -==> Parameters: 乌鸦(String), 666666@qq.com(String)
+2019-05-31 14:39:52 -<==    Updates: 1
+2019-05-31 14:39:52 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:39:52 -{dataSource-1} closing ...
+2019-05-31 14:39:52 -{dataSource-1} closed
+2019-05-31 14:57:16 -Starting MybatisApplicationTests on liuj-PC with PID 9000 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:57:16 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:57:16 -No active profile set, falling back to default profiles: default
+2019-05-31 14:57:17 -Init DruidDataSource
+2019-05-31 14:57:17 -{dataSource-1} inited
+2019-05-31 14:57:18 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:57:18 -Started MybatisApplicationTests in 2.848 seconds (JVM running for 3.657)
+2019-05-31 14:57:18 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 14:57:18 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1001(Long)
+2019-05-31 14:57:18 -<==    Updates: 1
+2019-05-31 14:57:18 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 14:57:18 -==> Parameters: 1001(Long)
+2019-05-31 14:57:18 -<==      Total: 1
+2019-05-31 14:57:18 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:57:18 -{dataSource-1} closing ...
+2019-05-31 14:57:18 -{dataSource-1} closed
+2019-05-31 14:57:39 -Starting MybatisApplicationTests on liuj-PC with PID 8344 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:57:39 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:57:39 -No active profile set, falling back to default profiles: default
+2019-05-31 14:57:40 -Init DruidDataSource
+2019-05-31 14:57:40 -{dataSource-1} inited
+2019-05-31 14:57:41 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:57:41 -Started MybatisApplicationTests in 2.679 seconds (JVM running for 3.506)
+2019-05-31 14:57:41 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 14:57:41 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1001(Long)
+2019-05-31 14:57:41 -<==    Updates: 1
+2019-05-31 14:57:41 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 14:57:41 -==> Parameters: 1001(Long)
+2019-05-31 14:57:41 -<==      Total: 1
+2019-05-31 14:57:41 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:57:41 -{dataSource-1} closing ...
+2019-05-31 14:57:41 -{dataSource-1} closed
+2019-05-31 14:58:26 -Starting MybatisApplicationTests on liuj-PC with PID 8472 (started by liuj in F:\Workspaces\blog)
+2019-05-31 14:58:26 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 14:58:26 -No active profile set, falling back to default profiles: default
+2019-05-31 14:58:27 -Init DruidDataSource
+2019-05-31 14:58:27 -{dataSource-1} inited
+2019-05-31 14:58:28 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:58:28 -Started MybatisApplicationTests in 2.693 seconds (JVM running for 3.474)
+2019-05-31 14:58:29 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 14:58:29 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1002(Long)
+2019-05-31 14:58:29 -<==    Updates: 1
+2019-05-31 14:58:29 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 14:58:29 -{dataSource-1} closing ...
+2019-05-31 14:58:29 -{dataSource-1} closed
+2019-05-31 15:00:04 -Starting MybatisApplicationTests on liuj-PC with PID 8216 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:00:04 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:00:04 -No active profile set, falling back to default profiles: default
+2019-05-31 15:00:05 -Init DruidDataSource
+2019-05-31 15:00:05 -{dataSource-1} inited
+2019-05-31 15:00:06 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:00:06 -Started MybatisApplicationTests in 2.753 seconds (JVM running for 3.555)
+2019-05-31 15:00:13 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:00:14 -==> Parameters: liu(String), 8151@qq.com(String), 1002(Long)
+2019-05-31 15:00:14 -<==    Updates: 1
+2019-05-31 15:00:37 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:00:37 -{dataSource-1} closing ...
+2019-05-31 15:00:37 -{dataSource-1} closed
+2019-05-31 15:04:08 -Starting MybatisApplicationTests on liuj-PC with PID 9064 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:04:08 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:04:08 -No active profile set, falling back to default profiles: default
+2019-05-31 15:04:09 -Init DruidDataSource
+2019-05-31 15:04:09 -{dataSource-1} inited
+2019-05-31 15:04:10 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:04:10 -Started MybatisApplicationTests in 2.831 seconds (JVM running for 3.641)
+2019-05-31 15:04:14 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:04:14 -==> Parameters: liu(String), 8151@qq.com(String), 1002(Long)
+2019-05-31 15:04:14 -<==    Updates: 1
+2019-05-31 15:04:14 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:04:14 -{dataSource-1} closing ...
+2019-05-31 15:04:14 -{dataSource-1} closed
+2019-05-31 15:04:37 -Starting MybatisApplicationTests on liuj-PC with PID 8896 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:04:37 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:04:37 -No active profile set, falling back to default profiles: default
+2019-05-31 15:04:38 -Init DruidDataSource
+2019-05-31 15:04:39 -{dataSource-1} inited
+2019-05-31 15:04:39 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:04:40 -Started MybatisApplicationTests in 2.797 seconds (JVM running for 3.604)
+2019-05-31 15:04:40 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:04:40 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1002(Long)
+2019-05-31 15:04:40 -<==    Updates: 1
+2019-05-31 15:04:40 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:04:40 -{dataSource-1} closing ...
+2019-05-31 15:04:40 -{dataSource-1} closed
+2019-05-31 15:05:23 -Starting MybatisApplicationTests on liuj-PC with PID 8156 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:05:23 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:05:23 -No active profile set, falling back to default profiles: default
+2019-05-31 15:05:24 -Init DruidDataSource
+2019-05-31 15:05:24 -{dataSource-1} inited
+2019-05-31 15:05:25 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:05:25 -Started MybatisApplicationTests in 2.949 seconds (JVM running for 3.801)
+2019-05-31 15:05:28 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:05:29 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1002(Long)
+2019-05-31 15:05:29 -<==    Updates: 1
+2019-05-31 15:05:47 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:05:47 -{dataSource-1} closing ...
+2019-05-31 15:05:47 -{dataSource-1} closed
+2019-05-31 15:06:26 -Starting MybatisApplicationTests on liuj-PC with PID 7500 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:06:26 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:06:26 -No active profile set, falling back to default profiles: default
+2019-05-31 15:06:27 -Init DruidDataSource
+2019-05-31 15:06:28 -{dataSource-1} inited
+2019-05-31 15:06:28 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:06:29 -Started MybatisApplicationTests in 2.821 seconds (JVM running for 3.615)
+2019-05-31 15:06:32 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:06:32 -==> Parameters: liu(String), 81@qq.com(String), 1002(Long)
+2019-05-31 15:06:32 -<==    Updates: 1
+2019-05-31 15:06:32 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:06:32 -{dataSource-1} closing ...
+2019-05-31 15:06:32 -{dataSource-1} closed
+2019-05-31 15:07:02 -Starting MybatisApplicationTests on liuj-PC with PID 4996 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:07:02 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:07:02 -No active profile set, falling back to default profiles: default
+2019-05-31 15:07:03 -Init DruidDataSource
+2019-05-31 15:07:04 -{dataSource-1} inited
+2019-05-31 15:07:04 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:07:05 -Started MybatisApplicationTests in 3.072 seconds (JVM running for 3.85)
+2019-05-31 15:07:05 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:07:05 -==> Parameters: liujiang(String), 81@qq.com(String), 1002(Long)
+2019-05-31 15:07:05 -<==    Updates: 1
+2019-05-31 15:07:05 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:07:05 -{dataSource-1} closing ...
+2019-05-31 15:07:05 -{dataSource-1} closed
+2019-05-31 15:12:52 -Starting MybatisApplicationTests on liuj-PC with PID 8640 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:12:52 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:12:52 -No active profile set, falling back to default profiles: default
+2019-05-31 15:12:53 -Init DruidDataSource
+2019-05-31 15:12:53 -{dataSource-1} inited
+2019-05-31 15:12:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:12:54 -Started MybatisApplicationTests in 2.76 seconds (JVM running for 3.582)
+2019-05-31 15:12:54 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:12:55 -==> Parameters: liujiang(String), 81@qq.com(String), 1002(Long)
+2019-05-31 15:12:55 -<==    Updates: 1
+2019-05-31 15:12:55 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:12:55 -{dataSource-1} closing ...
+2019-05-31 15:12:55 -{dataSource-1} closed
+2019-05-31 15:16:09 -Starting MybatisApplicationTests on liuj-PC with PID 6532 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:16:09 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:16:09 -No active profile set, falling back to default profiles: default
+2019-05-31 15:16:10 -Init DruidDataSource
+2019-05-31 15:16:10 -{dataSource-1} inited
+2019-05-31 15:16:11 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:16:11 -Started MybatisApplicationTests in 2.724 seconds (JVM running for 3.524)
+2019-05-31 15:16:12 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:16:12 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Long)
+2019-05-31 15:16:12 -<==    Updates: 1
+2019-05-31 15:16:12 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:16:12 -{dataSource-1} closing ...
+2019-05-31 15:16:12 -{dataSource-1} closed
+2019-05-31 15:18:10 -Starting MybatisApplicationTests on liuj-PC with PID 7856 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:18:10 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:18:10 -No active profile set, falling back to default profiles: default
+2019-05-31 15:18:11 -Init DruidDataSource
+2019-05-31 15:18:11 -{dataSource-1} inited
+2019-05-31 15:18:12 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:18:12 -Started MybatisApplicationTests in 2.948 seconds (JVM running for 3.757)
+2019-05-31 15:18:13 -==>  Preparing: update user set name = ?, email = ? where id = ? 
+2019-05-31 15:18:13 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Long)
+2019-05-31 15:18:13 -<==    Updates: 1
+2019-05-31 15:18:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:18:13 -{dataSource-1} closing ...
+2019-05-31 15:18:13 -{dataSource-1} closed
+2019-05-31 15:27:21 -Starting MybatisApplicationTests on liuj-PC with PID 5332 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:27:21 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:27:21 -No active profile set, falling back to default profiles: default
+2019-05-31 15:27:22 -Init DruidDataSource
+2019-05-31 15:27:23 -{dataSource-1} inited
+2019-05-31 15:27:23 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:27:24 -Started MybatisApplicationTests in 2.763 seconds (JVM running for 3.629)
+2019-05-31 15:27:24 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 15:27:24 -==> Parameters: 1002(Long)
+2019-05-31 15:27:24 -<==      Total: 1
+2019-05-31 15:27:24 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 15:27:24 -==> Parameters: ceshiceshi(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 15:27:24 -<==    Updates: 1
+2019-05-31 15:27:24 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:27:24 -{dataSource-1} closing ...
+2019-05-31 15:27:24 -{dataSource-1} closed
+2019-05-31 15:28:47 -Starting MybatisApplicationTests on liuj-PC with PID 9200 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:28:47 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:28:47 -No active profile set, falling back to default profiles: default
+2019-05-31 15:28:48 -Init DruidDataSource
+2019-05-31 15:28:48 -{dataSource-1} inited
+2019-05-31 15:28:49 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:28:49 -Started MybatisApplicationTests in 2.84 seconds (JVM running for 3.706)
+2019-05-31 15:28:50 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 15:28:50 -==> Parameters: 1002(Long)
+2019-05-31 15:28:50 -<==      Total: 1
+2019-05-31 15:28:50 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 15:28:50 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 15:28:50 -<==    Updates: 1
+2019-05-31 15:28:50 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:28:50 -{dataSource-1} closing ...
+2019-05-31 15:28:50 -{dataSource-1} closed
+2019-05-31 15:29:37 -Starting MybatisApplicationTests on liuj-PC with PID 3628 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:29:37 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:29:37 -No active profile set, falling back to default profiles: default
+2019-05-31 15:29:38 -Init DruidDataSource
+2019-05-31 15:29:38 -{dataSource-1} inited
+2019-05-31 15:29:39 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:29:39 -Started MybatisApplicationTests in 2.712 seconds (JVM running for 3.338)
+2019-05-31 15:29:39 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 15:29:39 -==> Parameters: 1002(Long)
+2019-05-31 15:29:39 -<==      Total: 1
+2019-05-31 15:29:39 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 15:29:39 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 15:29:39 -<==    Updates: 1
+2019-05-31 15:29:39 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:29:39 -{dataSource-1} closing ...
+2019-05-31 15:29:39 -{dataSource-1} closed
+2019-05-31 15:31:07 -Starting MybatisApplicationTests on liuj-PC with PID 7316 (started by liuj in F:\Workspaces\blog)
+2019-05-31 15:31:07 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 15:31:07 -No active profile set, falling back to default profiles: default
+2019-05-31 15:31:08 -Init DruidDataSource
+2019-05-31 15:31:08 -{dataSource-1} inited
+2019-05-31 15:31:08 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:31:09 -Started MybatisApplicationTests in 2.618 seconds (JVM running for 3.227)
+2019-05-31 15:31:09 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 15:31:09 -==> Parameters: 1002(Long)
+2019-05-31 15:31:09 -<==      Total: 1
+2019-05-31 15:31:09 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 15:31:09 -==> Parameters: liu(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 15:31:09 -<==    Updates: 1
+2019-05-31 15:31:09 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 15:31:09 -{dataSource-1} closing ...
+2019-05-31 15:31:09 -{dataSource-1} closed
+2019-05-31 16:36:01 -Starting MybatisApplicationTests on liuj-PC with PID 7132 (started by liuj in F:\Workspaces\blog)
+2019-05-31 16:36:01 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 16:36:01 -No active profile set, falling back to default profiles: default
+2019-05-31 16:36:02 -Init DruidDataSource
+2019-05-31 16:36:02 -{dataSource-1} inited
+2019-05-31 16:36:03 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:36:03 -Started MybatisApplicationTests in 2.689 seconds (JVM running for 3.525)
+2019-05-31 16:36:04 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 16:36:04 -==> Parameters: 1002(Long)
+2019-05-31 16:36:04 -<==      Total: 1
+2019-05-31 16:36:04 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 16:36:04 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 16:36:04 -<==    Updates: 1
+2019-05-31 16:36:04 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:36:04 -{dataSource-1} closing ...
+2019-05-31 16:36:04 -{dataSource-1} closed
+2019-05-31 16:38:31 -Starting MybatisApplicationTests on liuj-PC with PID 8936 (started by liuj in F:\Workspaces\blog)
+2019-05-31 16:38:31 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 16:38:31 -No active profile set, falling back to default profiles: default
+2019-05-31 16:38:32 -Init DruidDataSource
+2019-05-31 16:38:32 -{dataSource-1} inited
+2019-05-31 16:38:33 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:38:34 -Started MybatisApplicationTests in 2.894 seconds (JVM running for 3.692)
+2019-05-31 16:38:34 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 16:38:34 -==> Parameters: 1002(Long)
+2019-05-31 16:38:34 -<==      Total: 1
+2019-05-31 16:38:34 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 16:38:34 -==> Parameters: liujiang(String), 815130@qq.com(String), 1002(Integer)
+2019-05-31 16:38:34 -<==    Updates: 1
+2019-05-31 16:38:34 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:38:34 -{dataSource-1} closing ...
+2019-05-31 16:38:34 -{dataSource-1} closed
+2019-05-31 16:39:32 -Starting MybatisApplicationTests on liuj-PC with PID 820 (started by liuj in F:\Workspaces\blog)
+2019-05-31 16:39:32 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 16:39:32 -No active profile set, falling back to default profiles: default
+2019-05-31 16:39:33 -Init DruidDataSource
+2019-05-31 16:39:33 -{dataSource-1} inited
+2019-05-31 16:39:34 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:39:34 -Started MybatisApplicationTests in 2.99 seconds (JVM running for 3.832)
+2019-05-31 16:39:35 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 16:39:35 -==> Parameters: 1002(Long)
+2019-05-31 16:39:35 -<==      Total: 1
+2019-05-31 16:39:35 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 16:39:35 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1002(Integer)
+2019-05-31 16:39:35 -<==    Updates: 1
+2019-05-31 16:39:35 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:39:35 -{dataSource-1} closing ...
+2019-05-31 16:39:35 -{dataSource-1} closed
+2019-05-31 16:40:07 -Starting MybatisApplicationTests on liuj-PC with PID 7648 (started by liuj in F:\Workspaces\blog)
+2019-05-31 16:40:07 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 16:40:07 -No active profile set, falling back to default profiles: default
+2019-05-31 16:40:08 -Init DruidDataSource
+2019-05-31 16:40:08 -{dataSource-1} inited
+2019-05-31 16:40:09 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:40:09 -Started MybatisApplicationTests in 2.772 seconds (JVM running for 3.534)
+2019-05-31 16:40:09 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 16:40:09 -==> Parameters: 1002(Long)
+2019-05-31 16:40:09 -<==      Total: 1
+2019-05-31 16:40:09 -==>  Preparing: update user SET `name` = ?, `email` = ? where id = ? 
+2019-05-31 16:40:09 -==> Parameters: liujiang(String), 815130927@qq.com(String), 1002(Integer)
+2019-05-31 16:40:09 -<==    Updates: 1
+2019-05-31 16:40:09 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 16:40:09 -{dataSource-1} closing ...
+2019-05-31 16:40:09 -{dataSource-1} closed

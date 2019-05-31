@@ -8,4 +8,26 @@
       user
     where id = #{id}
   </select>
+
+    <insert id="save" parameterType="com.xiao.blog.system.domain.UserDO" useGeneratedKeys="true" keyProperty="id">
+    insert into user
+    (
+      `name`,
+      `email`
+    )
+    values (
+      #{name},
+      #{email}
+    )
+  </insert>
+
+    <update id="updateById" parameterType="com.xiao.blog.system.domain.UserDO">
+        update user
+        <set>
+            <if test="name != null">`name` = #{name},</if>
+            <if test="email != null">`email` = #{email}</if>
+        </set>
+        where id = #{id}
+    </update>
+
 </mapper>

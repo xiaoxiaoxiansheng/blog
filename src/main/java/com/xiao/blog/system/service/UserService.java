@@ -8,5 +8,6 @@ import com.xiao.blog.system.domain.UserDO;
  * @Description:
  */
 public interface UserService {
-    UserDO selectById();
+    UserDO selectById(long id);
+    int updateById(UserDO userDO);
 }
