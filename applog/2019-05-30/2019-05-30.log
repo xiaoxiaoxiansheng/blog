@@ -64,6 +64,7 @@
 2019-05-30 17:45:27 -Starting ProtocolHandler ["http-nio-8080"]
 2019-05-30 17:45:27 -Tomcat started on port(s): 8080 (http) with context path ''
 2019-05-30 17:45:27 -Started BlogApplication in 2.015 seconds (JVM running for 2.487)
+<<<<<<< HEAD
 2019-05-30 18:03:04 -Application run failed
 org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, java.lang.String>
 	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:249)
@@ -5097,3 +5098,5 @@ Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The serv
 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
 	... 6 common frames omitted
+=======
+>>>>>>> 3b3b8c01e2b8ec035d1ffd77b1b6590f57525650

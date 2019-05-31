@@ -7,6 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -26,6 +28,7 @@ public class MysqlApplicationTests {
     public void testJdbc(){
         String sql = "select * from user";
         List<Map<String, Object>> list = jdbcTemplate.queryForList(sql);
-        System.out.println(list.toString());
+//        System.out.println(list.toString());
+        list.forEach(System.out::println);//lamda表达式
     }
 }
