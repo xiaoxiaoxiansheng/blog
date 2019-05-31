@@ -18264,3 +18264,51 @@ Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The serv
 2019-05-31 16:40:09 -Shutting down ExecutorService 'applicationTaskExecutor'
 2019-05-31 16:40:09 -{dataSource-1} closing ...
 2019-05-31 16:40:09 -{dataSource-1} closed
+2019-05-31 17:09:52 -Starting RedisApplicationTests on liuj-PC with PID 6884 (started by liuj in F:\Workspaces\blog)
+2019-05-31 17:09:52 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 17:09:52 -No active profile set, falling back to default profiles: default
+2019-05-31 17:09:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:09:53 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:09:53 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-05-31 17:09:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e99c3d5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:09:53 -Init DruidDataSource
+2019-05-31 17:09:53 -{dataSource-1} inited
+2019-05-31 17:09:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:09:55 -Started RedisApplicationTests in 3.669 seconds (JVM running for 4.539)
+2019-05-31 17:09:55 -Starting without optional epoll library
+2019-05-31 17:09:55 -Starting without optional kqueue library
+2019-05-31 17:09:58 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:09:58 -{dataSource-1} closing ...
+2019-05-31 17:09:58 -{dataSource-1} closed
+2019-05-31 17:14:28 -Starting RedisApplicationTests on liuj-PC with PID 7624 (started by liuj in F:\Workspaces\blog)
+2019-05-31 17:14:28 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 17:14:28 -No active profile set, falling back to default profiles: default
+2019-05-31 17:14:29 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:14:29 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:14:29 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-05-31 17:14:29 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e40ce2e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:14:29 -Init DruidDataSource
+2019-05-31 17:14:30 -{dataSource-1} inited
+2019-05-31 17:14:31 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:14:31 -Started RedisApplicationTests in 3.504 seconds (JVM running for 4.313)
+2019-05-31 17:14:32 -Starting without optional epoll library
+2019-05-31 17:14:32 -Starting without optional kqueue library
+2019-05-31 17:14:33 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:14:34 -{dataSource-1} closing ...
+2019-05-31 17:14:34 -{dataSource-1} closed
+2019-05-31 17:50:06 -Starting RedisApplicationTests on liuj-PC with PID 388 (started by liuj in F:\Workspaces\blog)
+2019-05-31 17:50:06 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 17:50:06 -No active profile set, falling back to default profiles: default
+2019-05-31 17:50:06 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:50:06 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:50:06 -Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-05-31 17:50:07 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c362b133] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:50:07 -Init DruidDataSource
+2019-05-31 17:50:07 -{dataSource-1} inited
+2019-05-31 17:50:08 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:50:09 -Started RedisApplicationTests in 3.545 seconds (JVM running for 4.35)
+2019-05-31 17:50:09 -Starting without optional epoll library
+2019-05-31 17:50:09 -Starting without optional kqueue library
+2019-05-31 17:50:09 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:50:10 -{dataSource-1} closing ...
+2019-05-31 17:50:10 -{dataSource-1} closed

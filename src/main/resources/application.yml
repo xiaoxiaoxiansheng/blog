@@ -10,11 +10,17 @@ spring:
     url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
-
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+    password: 123456
+    timeout: 5000ms
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml
   type-aliases-package: com.xiao.blog.**.domain
+
 
 
 
