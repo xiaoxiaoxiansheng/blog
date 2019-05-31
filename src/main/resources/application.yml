@@ -16,6 +16,12 @@ spring:
     database: 1
     password: 123456
     timeout: 5000ms
+  cache:
+    #设置缓存类型
+    type: redis
+    redis:
+      #缓存存活时间，不设置则没有过期时间
+      time-to-live: 1800000ms
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml
