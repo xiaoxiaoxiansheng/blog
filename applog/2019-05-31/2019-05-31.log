@@ -17736,3 +17736,142 @@ Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The serv
 2019-05-31 09:22:02 -{dataSource-1} closing ...
 2019-05-31 09:22:02 -{dataSource-1} closed
 2019-05-31 09:22:02 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:04:56 -Starting MysqlApplicationTests on liuj-PC with PID 5704 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:04:56 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:04:56 -No active profile set, falling back to default profiles: default
+2019-05-31 13:04:57 -Init DruidDataSource
+2019-05-31 13:04:57 -{dataSource-1} inited
+2019-05-31 13:04:57 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:04:58 -Started MysqlApplicationTests in 2.696 seconds (JVM running for 3.505)
+2019-05-31 13:05:07 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:05:07 -{dataSource-1} closing ...
+2019-05-31 13:05:07 -{dataSource-1} closed
+2019-05-31 13:05:24 -Starting BlogApplication on liuj-PC with PID 8632 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-31 13:05:24 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:05:24 -No active profile set, falling back to default profiles: default
+2019-05-31 13:05:24 -Tomcat initialized with port(s): 8080 (http)
+2019-05-31 13:05:25 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-31 13:05:25 -Starting service [Tomcat]
+2019-05-31 13:05:25 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 13:05:25 -Initializing Spring embedded WebApplicationContext
+2019-05-31 13:05:25 -Root WebApplicationContext: initialization completed in 1018 ms
+2019-05-31 13:05:25 -Init DruidDataSource
+2019-05-31 13:05:25 -{dataSource-1} inited
+2019-05-31 13:05:25 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:05:25 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-31 13:05:25 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-31 13:05:25 -Started BlogApplication in 2.054 seconds (JVM running for 2.897)
+2019-05-31 13:05:41 -Starting BlogApplication on liuj-PC with PID 7728 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-05-31 13:05:41 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:05:41 -No active profile set, falling back to default profiles: default
+2019-05-31 13:05:42 -Tomcat initialized with port(s): 8080 (http)
+2019-05-31 13:05:42 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-31 13:05:42 -Starting service [Tomcat]
+2019-05-31 13:05:42 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 13:05:42 -Initializing Spring embedded WebApplicationContext
+2019-05-31 13:05:42 -Root WebApplicationContext: initialization completed in 834 ms
+2019-05-31 13:05:42 -Init DruidDataSource
+2019-05-31 13:05:42 -{dataSource-1} inited
+2019-05-31 13:05:42 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:05:43 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-31 13:05:43 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-31 13:05:43 -Started BlogApplication in 2.153 seconds (JVM running for 2.646)
+2019-05-31 13:05:57 -Starting MybatisApplicationTests on liuj-PC with PID 8708 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:05:57 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:05:57 -No active profile set, falling back to default profiles: default
+2019-05-31 13:05:58 -Init DruidDataSource
+2019-05-31 13:05:58 -{dataSource-1} inited
+2019-05-31 13:05:58 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:05:59 -Started MybatisApplicationTests in 2.801 seconds (JVM running for 3.66)
+2019-05-31 13:06:10 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:06:10 -{dataSource-1} closing ...
+2019-05-31 13:06:10 -{dataSource-1} closed
+2019-05-31 13:12:03 -Starting MybatisApplicationTests on liuj-PC with PID 5712 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:12:03 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:12:03 -No active profile set, falling back to default profiles: default
+2019-05-31 13:12:04 -Init DruidDataSource
+2019-05-31 13:12:04 -{dataSource-1} inited
+2019-05-31 13:12:05 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:12:05 -Started MybatisApplicationTests in 2.79 seconds (JVM running for 3.628)
+2019-05-31 13:12:09 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:12:09 -{dataSource-1} closing ...
+2019-05-31 13:12:09 -{dataSource-1} closed
+2019-05-31 13:12:47 -Starting MybatisApplicationTests on liuj-PC with PID 6248 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:12:47 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:12:47 -No active profile set, falling back to default profiles: default
+2019-05-31 13:12:47 -Init DruidDataSource
+2019-05-31 13:12:48 -{dataSource-1} inited
+2019-05-31 13:12:48 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:12:49 -Started MybatisApplicationTests in 2.636 seconds (JVM running for 3.471)
+2019-05-31 13:12:54 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:12:54 -{dataSource-1} closing ...
+2019-05-31 13:12:54 -{dataSource-1} closed
+2019-05-31 13:17:13 -Starting MybatisApplicationTests on liuj-PC with PID 5692 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:17:13 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:17:13 -No active profile set, falling back to default profiles: default
+2019-05-31 13:17:14 -Init DruidDataSource
+2019-05-31 13:17:14 -{dataSource-1} inited
+2019-05-31 13:17:15 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:17:15 -Started MybatisApplicationTests in 3.035 seconds (JVM running for 3.821)
+2019-05-31 13:17:20 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:17:20 -{dataSource-1} closing ...
+2019-05-31 13:17:20 -{dataSource-1} closed
+2019-05-31 13:18:52 -Starting MybatisApplicationTests on liuj-PC with PID 8428 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:18:52 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:18:52 -No active profile set, falling back to default profiles: default
+2019-05-31 13:18:53 -Init DruidDataSource
+2019-05-31 13:18:53 -{dataSource-1} inited
+2019-05-31 13:18:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:18:54 -Started MybatisApplicationTests in 2.51 seconds (JVM running for 3.144)
+2019-05-31 13:18:54 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:18:54 -{dataSource-1} closing ...
+2019-05-31 13:18:54 -{dataSource-1} closed
+2019-05-31 13:26:19 -Starting MybatisApplicationTests on liuj-PC with PID 6828 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:26:19 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:26:19 -No active profile set, falling back to default profiles: default
+2019-05-31 13:26:21 -Init DruidDataSource
+2019-05-31 13:26:21 -{dataSource-1} inited
+2019-05-31 13:26:21 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:26:22 -Started MybatisApplicationTests in 3.076 seconds (JVM running for 3.909)
+2019-05-31 13:26:48 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:26:48 -{dataSource-1} closing ...
+2019-05-31 13:26:48 -{dataSource-1} closed
+2019-05-31 13:31:29 -Starting MybatisApplicationTests on liuj-PC with PID 6872 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:31:29 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:31:29 -No active profile set, falling back to default profiles: default
+2019-05-31 13:31:30 -Init DruidDataSource
+2019-05-31 13:31:30 -{dataSource-1} inited
+2019-05-31 13:31:31 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:31:31 -Started MybatisApplicationTests in 2.874 seconds (JVM running for 3.684)
+2019-05-31 13:31:35 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 13:31:37 -==> Parameters: 1001(Long)
+2019-05-31 13:31:38 -<==      Total: 1
+2019-05-31 13:31:53 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:31:53 -{dataSource-1} closing ...
+2019-05-31 13:31:53 -{dataSource-1} closed
+2019-05-31 13:32:46 -Starting MybatisApplicationTests on liuj-PC with PID 6048 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:32:46 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:32:46 -No active profile set, falling back to default profiles: default
+2019-05-31 13:32:47 -Init DruidDataSource
+2019-05-31 13:32:47 -{dataSource-1} inited
+2019-05-31 13:32:48 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:32:49 -Started MybatisApplicationTests in 2.784 seconds (JVM running for 3.615)
+2019-05-31 13:32:52 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 13:32:52 -==> Parameters: 1001(Long)
+2019-05-31 13:32:52 -<==      Total: 1
+2019-05-31 13:32:52 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:32:52 -{dataSource-1} closing ...
+2019-05-31 13:32:52 -{dataSource-1} closed
+2019-05-31 13:35:00 -Starting MybatisApplicationTests on liuj-PC with PID 9116 (started by liuj in F:\Workspaces\blog)
+2019-05-31 13:35:00 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 13:35:00 -No active profile set, falling back to default profiles: default
+2019-05-31 13:35:01 -Init DruidDataSource
+2019-05-31 13:35:01 -{dataSource-1} inited
+2019-05-31 13:35:02 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:35:02 -Started MybatisApplicationTests in 2.755 seconds (JVM running for 3.369)
+2019-05-31 13:35:02 -==>  Preparing: select `id`,`name`, `email` from user where id = ? 
+2019-05-31 13:35:02 -==> Parameters: 1001(Long)
+2019-05-31 13:35:02 -<==      Total: 1
+2019-05-31 13:35:02 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 13:35:02 -{dataSource-1} closing ...
+2019-05-31 13:35:02 -{dataSource-1} closed
