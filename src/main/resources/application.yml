@@ -1,8 +1,5 @@
 server:
-  port: 80
-  servlet:
-    session:
-      timeout: 30s
+  port: 8080
 
 logging:
   level:

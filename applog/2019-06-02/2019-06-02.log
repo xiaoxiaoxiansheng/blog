@@ -1,0 +1,72 @@
+2019-06-02 00:18:41 -Starting RestTemplateApplicationTests on UD8R6OO091PE5WQ with PID 4732 (started by Administrator in F:\work\idea\blog)
+2019-06-02 00:18:41 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 00:18:41 -No active profile set, falling back to default profiles: default
+2019-06-02 00:18:43 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 00:18:43 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 00:18:43 -Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-06-02 00:18:44 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$481bf0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 00:18:44 -Init DruidDataSource
+2019-06-02 00:18:45 -{dataSource-1} inited
+2019-06-02 00:18:48 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:18:49 -Started RestTemplateApplicationTests in 9.237 seconds (JVM running for 11.799)
+2019-06-02 00:19:06 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:19:06 -{dataSource-1} closing ...
+2019-06-02 00:19:06 -{dataSource-1} closed
+2019-06-02 00:23:12 -Starting RestTemplateApplicationTests on UD8R6OO091PE5WQ with PID 8616 (started by Administrator in F:\work\idea\blog)
+2019-06-02 00:23:12 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 00:23:12 -No active profile set, falling back to default profiles: default
+2019-06-02 00:23:13 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 00:23:13 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 00:23:13 -Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-06-02 00:23:14 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$97c2fecb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 00:23:14 -Init DruidDataSource
+2019-06-02 00:23:14 -{dataSource-1} inited
+2019-06-02 00:23:18 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:23:19 -Started RestTemplateApplicationTests in 9.378 seconds (JVM running for 11.235)
+2019-06-02 00:23:21 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-06-02 00:23:21 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:23:21 -{dataSource-1} closing ...
+2019-06-02 00:23:21 -{dataSource-1} closed
+2019-06-02 00:25:15 -Starting RestTemplateApplicationTests on UD8R6OO091PE5WQ with PID 8708 (started by Administrator in F:\work\idea\blog)
+2019-06-02 00:25:15 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 00:25:15 -No active profile set, falling back to default profiles: default
+2019-06-02 00:25:17 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 00:25:17 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 00:25:17 -Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-06-02 00:25:17 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64c40b86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 00:25:18 -Init DruidDataSource
+2019-06-02 00:25:18 -{dataSource-1} inited
+2019-06-02 00:25:21 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:25:22 -Started RestTemplateApplicationTests in 7.864 seconds (JVM running for 9.717)
+2019-06-02 00:25:22 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:25:22 -{dataSource-1} closing ...
+2019-06-02 00:25:22 -{dataSource-1} closed
+2019-06-02 00:32:52 -Starting RestTemplateApplicationTests on UD8R6OO091PE5WQ with PID 4296 (started by Administrator in F:\work\idea\blog)
+2019-06-02 00:32:52 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 00:32:52 -No active profile set, falling back to default profiles: default
+2019-06-02 00:32:54 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 00:32:54 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 00:32:54 -Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-06-02 00:32:54 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afa5529a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 00:32:55 -Init DruidDataSource
+2019-06-02 00:32:55 -{dataSource-1} inited
+2019-06-02 00:32:58 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:32:59 -Started RestTemplateApplicationTests in 7.933 seconds (JVM running for 10.054)
+2019-06-02 00:32:59 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.xiao.blog.TestController.getUser(com.xiao.blog.system.domain.UserDO)]
+2019-06-02 00:32:59 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:32:59 -{dataSource-1} closing ...
+2019-06-02 00:32:59 -{dataSource-1} closed
+2019-06-02 00:33:43 -Starting RestTemplateApplicationTests on UD8R6OO091PE5WQ with PID 1720 (started by Administrator in F:\work\idea\blog)
+2019-06-02 00:33:43 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 00:33:43 -No active profile set, falling back to default profiles: default
+2019-06-02 00:33:45 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 00:33:45 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 00:33:45 -Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-06-02 00:33:46 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5806439f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 00:33:46 -Init DruidDataSource
+2019-06-02 00:33:46 -{dataSource-1} inited
+2019-06-02 00:33:49 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:33:50 -Started RestTemplateApplicationTests in 8.038 seconds (JVM running for 10.188)
+2019-06-02 00:33:51 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-02 00:33:51 -{dataSource-1} closing ...
+2019-06-02 00:33:51 -{dataSource-1} closed

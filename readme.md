@@ -36,14 +36,9 @@ Git is free software.
 ## ceshi master 
 git checkout master
 
-## linux 命令
-vi 文件名  编辑文件
-
-
-##ceshi fea 解决冲突
-测试解决冲突：
-
-:wq
+##windows命令
+    cd ~/.ssh   ：   查看是否已经有了ssh密钥
+    mkdir .ssh  ：   生成文件夹
 
 ## linux 命令
 vi 文件名 辑文件
