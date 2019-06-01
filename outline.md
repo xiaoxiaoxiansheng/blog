@@ -11,3 +11,7 @@
 ##springboot缓存
     如果没有引入其他缓存，springboot默认的ConcurrenMapCacheManager作为缓存管理器
     key支持 spel表达式
+##springboot RestTemplate
+1.  介绍 
+        RestTemplate是spring提供的用于访问Rest服务的客户端，提供了多种便捷访问远程Http服务的方法，
+    能够大大提高客户端的编程效率。
