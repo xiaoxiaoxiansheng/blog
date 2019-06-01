@@ -9,10 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 //@EnableTransactionManagement
 @MapperScan("com.xiao.blog.*.mapper")
+//开启缓存
 @EnableCaching
 @SpringBootApplication
 public class BlogApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(BlogApplication.class, args);
         System.out.println("Welcome xiao.");
