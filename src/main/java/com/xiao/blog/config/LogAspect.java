@@ -31,7 +31,7 @@ import java.util.Arrays;
 public class LogAspect {
     private Logger logger = LoggerFactory.getLogger(LogAspect.class);
 
-    @Pointcut("execution(public * com.xiao.blog..*.*(..))")
+    @Pointcut("execution(public * com.xiao.blog.TestController.*.*(..))")
     public void pointcut(){
 
     }

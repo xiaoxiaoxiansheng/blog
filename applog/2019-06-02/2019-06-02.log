@@ -1209,3 +1209,157 @@ java.lang.IllegalArgumentException: not support type : class [Ljava.lang.Object;
 2019-06-02 21:17:30 -返回结果 ：com.xiao.blog.TestController.print:[Ljava.lang.Object;@2f82304
 2019-06-02 21:17:58 -返回结果 ：com.xiao.blog.TestController.print:[Ljava.lang.Object;@42a6b075
 2019-06-02 21:19:02 -返回结果 ：com.xiao.blog.TestController.print:[Ljava.lang.Object;@144190e6
+2019-06-02 21:38:24 -Starting BlogApplication on UD8R6OO091PE5WQ with PID 5404 (F:\work\idea\blog\target\classes started by Administrator in F:\work\idea\blog)
+2019-06-02 21:38:24 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 21:38:24 -No active profile set, falling back to default profiles: default
+2019-06-02 21:38:25 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 21:38:25 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 21:38:25 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-02 21:38:25 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54a8f985] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 21:38:26 -Tomcat initialized with port(s): 8080 (http)
+2019-06-02 21:38:26 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-02 21:38:26 -Starting service [Tomcat]
+2019-06-02 21:38:26 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-02 21:38:26 -Initializing Spring embedded WebApplicationContext
+2019-06-02 21:38:26 -Root WebApplicationContext: initialization completed in 1645 ms
+2019-06-02 21:38:26 -Init DruidDataSource
+2019-06-02 21:38:26 -{dataSource-1} inited
+2019-06-02 21:38:27 -[org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory@1e9469b8]
+2019-06-02 21:38:27 -response : org.springframework.data.redis.core.RedisTemplate@7fb66650
+2019-06-02 21:38:27 -[org.springframework.boot.web.client.RestTemplateBuilder@672a1c62]
+2019-06-02 21:38:27 -response : org.springframework.web.client.RestTemplate@43c87306
+2019-06-02 21:38:27 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 21:38:27 -Initializing ExecutorService 'taskScheduler'
+2019-06-02 21:38:28 -[]
+2019-06-02 21:38:28 -Starting ProtocolHandler ["http-nio-8080"]
+2019-06-02 21:38:28 -response : null
+2019-06-02 21:38:28 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-02 21:38:28 -Started BlogApplication in 4.082 seconds (JVM running for 4.794)
+2019-06-02 21:38:31 -[]
+2019-06-02 21:38:31 -response : null
+2019-06-02 21:38:34 -[]
+2019-06-02 21:38:34 -response : null
+2019-06-02 21:38:37 -[]
+2019-06-02 21:38:37 -response : null
+2019-06-02 21:38:40 -[]
+2019-06-02 21:38:40 -response : null
+2019-06-02 21:38:43 -[]
+2019-06-02 21:38:43 -response : null
+2019-06-02 21:38:46 -[]
+2019-06-02 21:38:46 -response : null
+2019-06-02 21:38:49 -[]
+2019-06-02 21:38:49 -response : null
+2019-06-02 21:39:16 -Starting BlogApplication on UD8R6OO091PE5WQ with PID 7420 (F:\work\idea\blog\target\classes started by Administrator in F:\work\idea\blog)
+2019-06-02 21:39:16 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 21:39:16 -No active profile set, falling back to default profiles: default
+2019-06-02 21:39:17 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 21:39:17 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 21:39:17 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-02 21:39:17 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b95a267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 21:39:17 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut pointcut
+2019-06-02 21:39:17 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-02 21:39:17 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:721)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:534)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.xiao.blog.BlogApplication.main(BlogApplication.java:20)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.annotation.ProxyCachingConfiguration': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504)
+	... 14 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504)
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut pointcut
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 57 common frames omitted
+2019-06-02 21:40:21 -Starting BlogApplication on UD8R6OO091PE5WQ with PID 4416 (F:\work\idea\blog\target\classes started by Administrator in F:\work\idea\blog)
+2019-06-02 21:40:21 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-02 21:40:21 -No active profile set, falling back to default profiles: default
+2019-06-02 21:40:21 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-02 21:40:21 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-02 21:40:22 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-02 21:40:22 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$347f4e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-02 21:40:22 -Tomcat initialized with port(s): 8080 (http)
+2019-06-02 21:40:22 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-02 21:40:22 -Starting service [Tomcat]
+2019-06-02 21:40:22 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-02 21:40:23 -Initializing Spring embedded WebApplicationContext
+2019-06-02 21:40:23 -Root WebApplicationContext: initialization completed in 1845 ms
+2019-06-02 21:40:23 -Init DruidDataSource
+2019-06-02 21:40:23 -{dataSource-1} inited
+2019-06-02 21:40:24 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-02 21:40:24 -Initializing ExecutorService 'taskScheduler'
+2019-06-02 21:40:24 -Starting ProtocolHandler ["http-nio-8080"]
+2019-06-02 21:40:24 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-02 21:40:24 -Started BlogApplication in 4.656 seconds (JVM running for 5.523)
