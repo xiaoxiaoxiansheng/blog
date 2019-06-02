@@ -1,5 +1,6 @@
 package com.xiao.blog;
 
+import com.xiao.blog.config.Print;
 import com.xiao.blog.system.domain.UserDO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,5 +31,11 @@ public class TestController {
     @PostMapping("getUser")
     public String getUser(@RequestBody UserDO userDO){
         return userDO.toString();
+    }
+
+    @Print(value = "testprint")
+    @GetMapping("print")
+    public String print(String str){
+        return str;
     }
 }
