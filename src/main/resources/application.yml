@@ -25,6 +25,14 @@ spring:
     redis:
       #缓存存活时间，不设置则没有过期时间
       time-to-live: 1800000ms
+  mail:
+    default-encoding: utf-8
+    host: 15101078046@163.com
+    port: 465
+    username: liujia
+    password: 123456
+    properties:
+      mail.smtp.ssl.enable: true
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml

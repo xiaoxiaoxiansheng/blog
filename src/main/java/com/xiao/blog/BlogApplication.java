@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 //开启缓存
 @EnableCaching
 //开启定时任务
-@EnableScheduling
+//@EnableScheduling
 @SpringBootApplication
 public class BlogApplication {
     public static void main(String[] args) {
