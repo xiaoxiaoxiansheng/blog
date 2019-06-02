@@ -1,4 +1,5 @@
 #springboot大纲 了解
+
 ##SpringBoot redis
  1. 简单命令
         redis-cli   :   连接本地的redis-cli服务
@@ -15,3 +16,7 @@
 1.  介绍 
         RestTemplate是spring提供的用于访问Rest服务的客户端，提供了多种便捷访问远程Http服务的方法，
     能够大大提高客户端的编程效率。
+##springboot Aop
+1. 切面即应用
+2. 注解切面、包下所有方法切面
+
