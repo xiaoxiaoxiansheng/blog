@@ -40,6 +40,17 @@ spring:
       mail.smtp.socketFactory.port: 465
       mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
       mail.smtp.socketFactory.fallback: false
+  activemq:
+    #ActiveMQ的通讯地址
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    #是否启用内存模式（不安装MQ，项目启动时同时启动MQ实例）
+    in-memory: false
+    packages:
+      trust-all: true
+    pool:
+      enabled: false
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml
