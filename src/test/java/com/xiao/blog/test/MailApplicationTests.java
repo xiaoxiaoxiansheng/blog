@@ -33,13 +33,13 @@ public class MailApplicationTests {
     @Test
     public void testMail(){
         SimpleMailMessage mailMessage = new SimpleMailMessage();
-        mailMessage.setTo("815130927@qq.com");
-        mailMessage.setText("hello, i am liujia.");
+        mailMessage.setTo("99402615@qq.com");
+        mailMessage.setText("hello,hello,hello,hello,hello,hello,hello,hello,hello,灵图一霸。");
         mailMessage.getSentDate();
-        mailMessage.setSubject("test");
+        mailMessage.setSubject("灵图某某人");
         mailMessage.setFrom(username);
 
-//        mailSender.send(mailMessage);
+        mailSender.send(mailMessage);
 
         System.out.println("已发送。。。。。。。。。。。。。。");
     }

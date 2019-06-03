@@ -43,13 +43,24 @@
 	Mapper映射xml文件，添加SQL
 2. Service文件，添加注解@Transactional(rollbackFor = RuntimeException.class)
 3. 启动类添加注解@EnableTrancactionManagement
-##springboot整合Redis
-1. Redis安装 https://github.com/MSOpenTech/redis/releases
-2. 开启服务
-3. 引入依赖
-4. 修改配置文件
-5. 测试Redis缓存
-##springboot 缓存
+
+##SpringBoot redis
+ 1. Redis安装 https://github.com/MSOpenTech/redis/releases
+ 2. 简单命令
+        redis-cli   :   连接本地的redis-cli服务
+        redis-cli -h host -p port -a password : 连接远程服务器上执行命令
+        auth password ： 输入密码
+        set key value   ： 设置缓存
+        get key ：   获取缓存
+        keys  pattern  ： 获取所有key
+        ping    ：   检查服务器是否还在，在会返回一个pong  
+ 3. 开启服务
+ 4. 引入依赖
+ 5. 修改配置文件
+ 6. 测试Redis缓存
+##springboot缓存
+    如果没有引入其他缓存，springboot默认的ConcurrenMapCacheManager作为缓存管理器
+    key支持 spel表达式
 1. 引入缓存依赖
 2. 设置缓存类型，比如redis
 3. 启动类开启缓存@EnableCaching
@@ -59,25 +70,11 @@
 	@CacheEvict(value="",key="")
 5. 应用
 ##springboot RestTemplate
-1. 注册bean，springboot不会自动注册RestTemplate
-2. 应用RestTemplate.getForObjOBect("", String.class)
-
-##SpringBoot redis
- 1. 简单命令
-        redis-cli   :   连接本地的redis-cli服务
-        redis-cli -h host -p port -a password : 连接远程服务器上执行命令
-        auth password ： 输入密码
-        set key value   ： 设置缓存
-        get key ：   获取缓存
-        keys  pattern  ： 获取所有key
-        ping    ：   检查服务器是否还在，在会返回一个pong  
-##springboot缓存
-    如果没有引入其他缓存，springboot默认的ConcurrenMapCacheManager作为缓存管理器
-    key支持 spel表达式
-##springboot RestTemplate
 1.  介绍 
         RestTemplate是spring提供的用于访问Rest服务的客户端，提供了多种便捷访问远程Http服务的方法，
     能够大大提高客户端的编程效率。
+2. 注册bean，springboot不会自动注册RestTemplate
+3. 应用RestTemplate.getForObjOBect("", String.class)
 ##springboot Aop
 1. 切面即应用
 2. 注解切面、包下所有方法切面
@@ -89,3 +86,16 @@
 1. 启动类开启@EnableScheduling
 2. 创建定时任务类，注解@Scheduled（cron表达式或者时间）
 ## springboot邮件
+1. 引入依赖 
+2. 修改application.yml配置
+    spring:
+      mail:
+        default-encoding: UTF-8
+        host: smtp.163.com（ping smtp.163.com,获取IP地址）
+        port: 465
+        username: 用户名（邮箱）
+        password: 密码 （开启smtp服务的授权码，在邮箱的设置中查看）
+        properties:
+          mail.smtp.ssl.enable: true
+3. JavaMailSender
+##

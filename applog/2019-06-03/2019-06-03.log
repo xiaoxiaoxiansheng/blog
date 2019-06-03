@@ -151,3 +151,101 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2019-06-03 00:26:08 -Shutting down ExecutorService 'applicationTaskExecutor'
 2019-06-03 00:26:08 -{dataSource-1} closing ...
 2019-06-03 00:26:08 -{dataSource-1} closed
+2019-06-03 10:39:34 -Starting MailApplicationTests on liuj-PC with PID 7528 (started by liuj in F:\Workspaces\blog)
+2019-06-03 10:39:34 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 10:39:34 -No active profile set, falling back to default profiles: default
+2019-06-03 10:39:36 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 10:39:36 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 10:39:36 -Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-06-03 10:39:37 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e513c324] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 10:39:37 -Init DruidDataSource
+2019-06-03 10:39:38 -{dataSource-1} inited
+2019-06-03 10:39:40 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:39:41 -Started MailApplicationTests in 7.773 seconds (JVM running for 9.66)
+2019-06-03 10:39:41 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:39:41 -{dataSource-1} closing ...
+2019-06-03 10:39:41 -{dataSource-1} closed
+2019-06-03 10:45:29 -Starting MailApplicationTests on liuj-PC with PID 6372 (started by liuj in F:\Workspaces\blog)
+2019-06-03 10:45:29 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 10:45:29 -No active profile set, falling back to default profiles: default
+2019-06-03 10:45:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 10:45:30 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 10:45:30 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-03 10:45:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7eeb0fbf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 10:45:30 -Init DruidDataSource
+2019-06-03 10:45:30 -{dataSource-1} inited
+2019-06-03 10:45:32 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:45:32 -Started MailApplicationTests in 4.135 seconds (JVM running for 4.811)
+2019-06-03 10:45:33 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:45:33 -{dataSource-1} closing ...
+2019-06-03 10:45:33 -{dataSource-1} closed
+2019-06-03 10:46:31 -Starting MailApplicationTests on liuj-PC with PID 8804 (started by liuj in F:\Workspaces\blog)
+2019-06-03 10:46:31 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 10:46:31 -No active profile set, falling back to default profiles: default
+2019-06-03 10:46:32 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 10:46:32 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 10:46:32 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-03 10:46:32 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6d2ff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 10:46:32 -Init DruidDataSource
+2019-06-03 10:46:33 -{dataSource-1} inited
+2019-06-03 10:46:34 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:46:35 -Started MailApplicationTests in 4.211 seconds (JVM running for 4.88)
+2019-06-03 10:46:35 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:46:35 -{dataSource-1} closing ...
+2019-06-03 10:46:35 -{dataSource-1} closed
+2019-06-03 10:57:08 -Starting MailApplicationTests on liuj-PC with PID 8584 (started by liuj in F:\Workspaces\blog)
+2019-06-03 10:57:08 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 10:57:08 -No active profile set, falling back to default profiles: default
+2019-06-03 10:57:09 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 10:57:09 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 10:57:09 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-06-03 10:57:09 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3066d223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 10:57:10 -Init DruidDataSource
+2019-06-03 10:57:10 -{dataSource-1} inited
+2019-06-03 10:57:11 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:57:12 -Started MailApplicationTests in 4.138 seconds (JVM running for 4.79)
+2019-06-03 10:57:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 10:57:13 -{dataSource-1} closing ...
+2019-06-03 10:57:13 -{dataSource-1} closed
+2019-06-03 11:07:42 -Starting MailApplicationTests on liuj-PC with PID 8816 (started by liuj in F:\Workspaces\blog)
+2019-06-03 11:07:42 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 11:07:42 -No active profile set, falling back to default profiles: default
+2019-06-03 11:07:43 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 11:07:43 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 11:07:43 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-03 11:07:44 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b62cbcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:07:44 -Init DruidDataSource
+2019-06-03 11:07:44 -{dataSource-1} inited
+2019-06-03 11:07:45 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:07:46 -Started MailApplicationTests in 4.301 seconds (JVM running for 4.992)
+2019-06-03 11:07:47 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:07:47 -{dataSource-1} closing ...
+2019-06-03 11:07:47 -{dataSource-1} closed
+2019-06-03 11:24:41 -Starting MailApplicationTests on liuj-PC with PID 8464 (started by liuj in F:\Workspaces\blog)
+2019-06-03 11:24:41 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 11:24:41 -No active profile set, falling back to default profiles: default
+2019-06-03 11:24:41 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 11:24:41 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 11:24:42 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-03 11:24:42 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c93d7770] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:24:42 -Init DruidDataSource
+2019-06-03 11:24:42 -{dataSource-1} inited
+2019-06-03 11:24:44 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:24:44 -Started MailApplicationTests in 4.238 seconds (JVM running for 4.9)
+2019-06-03 11:24:45 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:24:45 -{dataSource-1} closing ...
+2019-06-03 11:24:45 -{dataSource-1} closed
+2019-06-03 11:30:52 -Starting MailApplicationTests on liuj-PC with PID 10004 (started by liuj in F:\Workspaces\blog)
+2019-06-03 11:30:52 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-03 11:30:52 -No active profile set, falling back to default profiles: default
+2019-06-03 11:30:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 11:30:53 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 11:30:53 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-03 11:30:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a3a8f7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:30:54 -Init DruidDataSource
+2019-06-03 11:30:54 -{dataSource-1} inited
+2019-06-03 11:30:55 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:30:56 -Started MailApplicationTests in 4.119 seconds (JVM running for 4.78)
+2019-06-03 11:30:57 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:30:57 -{dataSource-1} closing ...
+2019-06-03 11:30:57 -{dataSource-1} closed

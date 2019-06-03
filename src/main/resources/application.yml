@@ -29,12 +29,17 @@ spring:
       time-to-live: 1800000ms
   mail:
     default-encoding: utf-8
-    host: 15101078046@163.com
+    host: 220.181.12.18 #smtp.163.com 的ip地址
     port: 465
-    username: liujia
-    password: 123456
+    username: xiaoj_2019@163.com
+    password: Wangyi2019
     properties:
       mail.smtp.ssl.enable: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.socketFactory.port: 465
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+      mail.smtp.socketFactory.fallback: false
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml
