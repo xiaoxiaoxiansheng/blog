@@ -6,7 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.client.RestTemplate;
+
 
 /**
  * @Auther: liuj
@@ -46,6 +48,5 @@ public class BeanLoad {
     public RestTemplate restTemplate(RestTemplateBuilder builder){
         return builder.build();
     }
-    
     
 }

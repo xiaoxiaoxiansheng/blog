@@ -51,6 +51,7 @@ spring:
       trust-all: true
     pool:
       enabled: false
+
 mybatis:
   #加载mapper.xml文件
   mapper-locations: classpath:mybatis/**/*Mapper.xml
