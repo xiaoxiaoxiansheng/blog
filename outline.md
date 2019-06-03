@@ -1,4 +1,66 @@
 #springboot大纲 了解
+##springboot 配置
+1. 在application.yml设置属性值，
+	在实体类中@Value("bean,name")取值
+	在实体类直接注解@ConfigurationProperties(prefix = "bean")赋值属性
+2. 在实体类上配置文件@PropertySource("classpath:test.properties")
+3. 使用Environment获取属性配置
+4. 外部配置， java -jar xxx.jar --server.port=8088
+5. 加载其他配置文件
+6. 多环境配置
+##springboot 加载bean
+1. springboot无xml配置，会自动扫描启动类所在包以及子包中所有的带有@Controller、@Service、@Repository，@component注解的类
+2. 如果包不在这个范围内，则配置启动类，添加配置文件
+##springboot 日志级别
+1. 默认使用Logback作为日志，日志配置惠济路INFO级别以上的消息输出到控制台
+2. 日志的具体内容：
+	日期和时间
+	日志级别：ERROR,WARN,INFO,DEBUG,TRACE
+	进程ID
+	---
+	线程名称，方括号括起来
+	记录器名称
+	日志消息
+3. 配置日志文件
+	logging.file
+	logging.path
+4. 标准名称：log-config.xml加载
+##springboot mysql
+1. 引入依赖
+2. 配置文件application.yml
+3. JdbcTemplate接口调用SQL方法
+##springboot mybatis
+1. 引入依赖
+2. 配置 application.yml添加
+3. 实体类
+4. Mapper映射（dao）
+5. Mapper文件 ，对于目录下实体类的映射文件
+6. 启动类加上MapperScan("")注解
+7. 调用查询
+##springboot 事务控制
+1. Mapper类（dao），
+	添加注解@update("SQL:select * from ")
+	Mapper映射xml文件，添加SQL
+2. Service文件，添加注解@Transactional(rollbackFor = RuntimeException.class)
+3. 启动类添加注解@EnableTrancactionManagement
+##springboot整合Redis
+1. Redis安装 https://github.com/MSOpenTech/redis/releases
+2. 开启服务
+3. 引入依赖
+4. 修改配置文件
+5. 测试Redis缓存
+##springboot 缓存
+1. 引入缓存依赖
+2. 设置缓存类型，比如redis
+3. 启动类开启缓存@EnableCaching
+4. service缓存应用
+	@Cacheable(value="",key="")
+	@CachePut(value="",key="")
+	@CacheEvict(value="",key="")
+5. 应用
+##springboot RestTemplate
+1. 注册bean，springboot不会自动注册RestTemplate
+2. 应用RestTemplate.getForObjOBect("", String.class)
 
 ##SpringBoot redis
  1. 简单命令
@@ -19,4 +81,11 @@
 ##springboot Aop
 1. 切面即应用
 2. 注解切面、包下所有方法切面
-
+3. 引入依赖
+4. execution表达式
+5. 切面类，对某类接口实现切面
+5. 创建注解，新建注解的切面类
+##springboot定时任务
+1. 启动类开启@EnableScheduling
+2. 创建定时任务类，注解@Scheduled（cron表达式或者时间）
+## springboot邮件
