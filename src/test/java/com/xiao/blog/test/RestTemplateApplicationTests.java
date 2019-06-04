@@ -39,7 +39,7 @@ public class RestTemplateApplicationTests {
     @Test
     public void testPostRequest(){
         UserDO userDO = new UserDO();
-        userDO.setId(1001);
+//        userDO.setId(1001);
         userDO.setEmail("151@qq.com");
         userDO.setName("liu");
 
@@ -53,7 +53,7 @@ public class RestTemplateApplicationTests {
         httpHeaders.add("Content-Type", "application/json;charset=utf-8");
 
         UserDO userDO = new UserDO();
-        userDO.setId(1001);
+//        userDO.setId(1001);
         userDO.setEmail("151@qq.com");
         userDO.setName("liu");
 
