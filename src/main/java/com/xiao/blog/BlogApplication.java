@@ -15,6 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 @EnableCaching
 //开启定时任务
 //@EnableScheduling
+//开启异步
+@EnableAsync
 @SpringBootApplication
 public class BlogApplication {
     public static void main(String[] args) {

@@ -1,0 +1,84 @@
+2019-06-04 09:49:23 -Starting BlogApplication on liuj-PC with PID 6436 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-06-04 09:49:23 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-04 09:49:23 -No active profile set, falling back to default profiles: default
+2019-06-04 09:49:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-04 09:49:24 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-04 09:49:24 -Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-06-04 09:49:24 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b6933ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-04 09:49:25 -Tomcat initialized with port(s): 8080 (http)
+2019-06-04 09:49:25 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-04 09:49:25 -Starting service [Tomcat]
+2019-06-04 09:49:25 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-04 09:49:25 -Initializing Spring embedded WebApplicationContext
+2019-06-04 09:49:25 -Root WebApplicationContext: initialization completed in 2568 ms
+2019-06-04 09:49:26 -Init DruidDataSource
+2019-06-04 09:49:26 -{dataSource-1} inited
+2019-06-04 09:49:27 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-04 09:49:29 -Starting ProtocolHandler ["http-nio-8080"]
+2019-06-04 09:49:29 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-04 09:49:29 -Started BlogApplication in 7.74 seconds (JVM running for 8.59)
+2019-06-04 09:49:34 -Could not refresh JMS Connection for destination 'xiao.topic' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-06-04 09:49:35 -Could not refresh JMS Connection for destination 'xiao.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-06-04 09:49:40 -Could not refresh JMS Connection for destination 'xiao.topic' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-06-04 09:49:41 -Could not refresh JMS Connection for destination 'xiao.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-06-04 09:54:10 -Starting BlogApplication on liuj-PC with PID 6012 (F:\Workspaces\blog\target\classes started by liuj in F:\Workspaces\blog)
+2019-06-04 09:54:10 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-04 09:54:10 -No active profile set, falling back to default profiles: default
+2019-06-04 09:54:11 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-04 09:54:11 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-04 09:54:11 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-06-04 09:54:11 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be8b0329] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-04 09:54:11 -Tomcat initialized with port(s): 8080 (http)
+2019-06-04 09:54:11 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-04 09:54:11 -Starting service [Tomcat]
+2019-06-04 09:54:11 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-04 09:54:11 -Initializing Spring embedded WebApplicationContext
+2019-06-04 09:54:11 -Root WebApplicationContext: initialization completed in 1295 ms
+2019-06-04 09:54:12 -Init DruidDataSource
+2019-06-04 09:54:12 -{dataSource-1} inited
+2019-06-04 09:54:12 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-04 09:54:13 -Starting ProtocolHandler ["http-nio-8080"]
+2019-06-04 09:54:13 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-04 09:54:13 -Started BlogApplication in 3.661 seconds (JVM running for 4.182)
+2019-06-04 10:03:42 -Starting AsyncApplicationTests on liuj-PC with PID 7560 (started by liuj in F:\Workspaces\blog)
+2019-06-04 10:03:42 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-04 10:03:42 -No active profile set, falling back to default profiles: default
+2019-06-04 10:03:43 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-04 10:03:43 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-04 10:03:43 -Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-04 10:03:43 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc47cd4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-04 10:03:44 -Init DruidDataSource
+2019-06-04 10:03:44 -{dataSource-1} inited
+2019-06-04 10:03:46 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:03:47 -Started AsyncApplicationTests in 5.28 seconds (JVM running for 6.245)
+2019-06-04 10:03:48 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:03:48 -{dataSource-1} closing ...
+2019-06-04 10:03:48 -{dataSource-1} closed
+2019-06-04 10:04:50 -Starting AsyncApplicationTests on liuj-PC with PID 6544 (started by liuj in F:\Workspaces\blog)
+2019-06-04 10:04:50 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-04 10:04:50 -No active profile set, falling back to default profiles: default
+2019-06-04 10:04:51 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-04 10:04:51 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-04 10:04:51 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-04 10:04:51 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80244be5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-04 10:04:52 -Init DruidDataSource
+2019-06-04 10:04:52 -{dataSource-1} inited
+2019-06-04 10:04:53 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:04:54 -Started AsyncApplicationTests in 4.662 seconds (JVM running for 5.284)
+2019-06-04 10:05:00 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:05:00 -{dataSource-1} closing ...
+2019-06-04 10:05:00 -{dataSource-1} closed
+2019-06-04 10:05:47 -Starting AsyncApplicationTests on liuj-PC with PID 1580 (started by liuj in F:\Workspaces\blog)
+2019-06-04 10:05:47 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-04 10:05:47 -No active profile set, falling back to default profiles: default
+2019-06-04 10:05:48 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-04 10:05:48 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-04 10:05:48 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-04 10:05:49 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80244be5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-04 10:05:49 -Init DruidDataSource
+2019-06-04 10:05:49 -{dataSource-1} inited
+2019-06-04 10:05:51 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:05:51 -Started AsyncApplicationTests in 4.639 seconds (JVM running for 5.337)
+2019-06-04 10:05:57 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-04 10:05:58 -{dataSource-1} closing ...
+2019-06-04 10:05:58 -{dataSource-1} closed
