@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @ProjectName: blog
  * @ClassName: TestController
@@ -37,5 +39,20 @@ public class TestController {
     @GetMapping("print")
     public String print(String str){
         return str;
+    }
+
+    @GetMapping("testSetSession")
+    public String testSetSession(String name, HttpServletRequest request){
+        System.out.println("............" + name);
+        request.getSession().setAttribute("name", name);
+
+        return "true";
+    }
+
+    @GetMapping("testgetSession")
+    public String testgetSession(HttpServletRequest request){
+        System.out.println("name : " + request.getSession().getAttribute("name"));
+
+        return "true";
     }
 }
