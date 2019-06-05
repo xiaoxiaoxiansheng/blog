@@ -76,7 +76,6 @@ public class LoginController extends BaseController {
         }catch (AuthenticationException e){
             return AjaxJson.error("用户名或密码错误");
         }
-
     }
 
 
