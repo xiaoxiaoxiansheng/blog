@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
 //@EnableTransactionManagement
-@MapperScan("com.xiao.blog.*.mapper")
+@MapperScan("com.xiao.blog.*.dao")
 //开启缓存
 @EnableCaching
 //开启定时任务

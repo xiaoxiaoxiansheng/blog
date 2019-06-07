@@ -17,6 +17,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -50,6 +51,7 @@ public class LoginController extends BaseController {
     }
 
     @PostMapping("login")
+    @ResponseBody
     AjaxJson login(String username, String password, String verify, HttpServletRequest request){
         AjaxJson ajaxJson = new AjaxJson();
 
