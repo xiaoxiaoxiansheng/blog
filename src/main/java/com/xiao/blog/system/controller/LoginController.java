@@ -1,11 +1,9 @@
 package com.xiao.blog.system.controller;
 
+import com.xiao.blog.common.annotation.Log;
 import com.xiao.blog.common.config.BlogConfig;
 import com.xiao.blog.common.controller.BaseController;
-import com.xiao.blog.common.utils.AjaxJson;
-import com.xiao.blog.common.utils.MD5Utils;
-import com.xiao.blog.common.utils.RandomValidateCodeUtil;
-import com.xiao.blog.common.utils.StringUtils;
+import com.xiao.blog.common.utils.*;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -38,18 +36,39 @@ public class LoginController extends BaseController {
     @Autowired
     private BlogConfig blogConfig;
 
+    /**
+    * @Description : 博客首页
+    * @Author      : liujia
+    * @date        : 2019/6/7/007
+    * @Param       : 
+    * @return      : 
+    */
     @GetMapping({"/",""})
     String welcome(Model model){
         System.out.println("blog.............");
         return "redirect:/blog";
     }
+    /**
+    * @Description : 登录跳转，添加默认的用户名，密码
+    * @Author      : liujia
+    * @date        : 2019/6/7/007
+    * @Param       : 
+    * @return      : 
+    */
     @GetMapping("/login")
     String login(Model model){
         model.addAttribute("username", blogConfig.getUsername());
         model.addAttribute("password", blogConfig.getPassword());
         return "login";
     }
-
+    /**
+    * @Description : 登录
+    * @Author      : liujia
+    * @date        : 2019/6/7/007
+    * @Param       : 
+    * @return      : 
+    */
+    @Log("登录")
     @PostMapping("login")
     @ResponseBody
     AjaxJson login(String username, String password, String verify, HttpServletRequest request){
@@ -80,12 +99,25 @@ public class LoginController extends BaseController {
         }
     }
 
-
+    /**
+    * @Description : 登录主页
+    * @Author      : liujia
+    * @date        : 2019/6/7/007
+    * @Param       : 
+    * @return      : 
+    */
     @GetMapping("index")
     String index(Model model){
         return "index";
     }
 
+    /**
+    * @Description : 获取验证码
+    * @Author      : liujia
+    * @date        : 2019/6/7/007
+    * @Param       : 
+    * @return      : 
+    */
     @GetMapping("getVerify")
     void getVerify(HttpServletRequest request, HttpServletResponse response){
         try {
@@ -100,6 +132,27 @@ public class LoginController extends BaseController {
         }
     }
 
+    /**
+    * @Description : 登出,重定位到login页面
+    * @Author      : liujia
+    * @date        : 2019/6/8/008
+    * @Param       : 
+    * @return      : 
+    */
+    @GetMapping("loginOut")
+    String loginOut(){
+        try{
+            ShiroUtils.logout();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "redirect:/login";
+    }
+
+    @GetMapping("main")
+    String main(){
+        return "/main";
+    }
 
 
 }

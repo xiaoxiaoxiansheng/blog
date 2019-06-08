@@ -1161,3 +1161,65 @@ Caused by: org.springframework.beans.factory.BeanInitializationException: The se
 2019-06-07 16:56:30 -Completed initialization in 13 ms
 2019-06-07 16:56:38 -WIIA
 2019-06-07 16:57:24 -25MX
+2019-06-07 17:03:46 -Starting BlogApplication on UD8R6OO091PE5WQ with PID 7096 (F:\work\idea\blog\target\classes started by Administrator in F:\work\idea\blog)
+2019-06-07 17:03:46 -Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-07 17:03:46 -The following profiles are active: dev
+2019-06-07 17:03:47 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-07 17:03:47 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-07 17:03:47 -Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-06-07 17:03:47 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64c41eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-07 17:03:47 -Bean 'shiroConfig' of type [com.xiao.blog.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$e5f0cf30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-07 17:03:48 -Bean 'userRealm' of type [com.xiao.blog.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-07 17:03:48 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-07 17:03:48 -Tomcat initialized with port(s): 8080 (http)
+2019-06-07 17:03:48 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-07 17:03:48 -Starting service [Tomcat]
+2019-06-07 17:03:48 -Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-07 17:03:48 -Initializing Spring embedded WebApplicationContext
+2019-06-07 17:03:48 -Root WebApplicationContext: initialization completed in 2495 ms
+2019-06-07 17:03:48 -ApplicationContextRegister : 
+2019-06-07 17:03:49 -Init DruidDataSource
+2019-06-07 17:03:49 -{dataSource-1} inited
+2019-06-07 17:03:50 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-07 17:03:50 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-07 17:03:50 -Adding welcome page template: index
+2019-06-07 17:03:50 -Starting ProtocolHandler ["http-nio-8080"]
+2019-06-07 17:03:50 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-07 17:03:50 -Started BlogApplication in 5.911 seconds (JVM running for 7.084)
+2019-06-07 17:04:05 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-07 17:04:05 -Initializing Servlet 'dispatcherServlet'
+2019-06-07 17:04:05 -Completed initialization in 13 ms
+2019-06-07 17:04:14 -NQGA
+2019-06-07 17:05:26 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user where username = ? 
+2019-06-07 17:05:28 -==> Parameters: admin(String)
+2019-06-07 17:05:30 -<==      Total: 1
+2019-06-07 17:07:12 -Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 common frames omitted
+2019-06-07 17:07:12 -Setup of JMS message listener invoker failed for destination 'xiao.queue' - trying to recover. Cause: The Consumer is closed
+2019-06-07 17:07:12 -Setup of JMS message listener invoker failed for destination 'xiao.topic' - trying to recover. Cause: The Session is closed
+2019-06-07 17:07:30 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user where username = ? 
+2019-06-07 17:07:30 -==> Parameters: admin(String)
+2019-06-07 17:07:30 -<==      Total: 1
+2019-06-07 17:08:17 -EVWF
+2019-06-07 17:08:41 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user where username = ? 
+2019-06-07 17:08:41 -==> Parameters: admin(String)
+2019-06-07 17:08:41 -<==      Total: 1
