@@ -106,8 +106,10 @@ public class LoginController extends BaseController {
     * @Param       : 
     * @return      : 
     */
+    @Log("请求访问主页")
     @GetMapping("index")
     String index(Model model){
+
         return "index";
     }
 

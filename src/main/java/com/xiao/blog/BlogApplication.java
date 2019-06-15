@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
-//@EnableTransactionManagement
+@EnableTransactionManagement
 @MapperScan("com.xiao.blog.*.dao")
 //开启缓存
 @EnableCaching

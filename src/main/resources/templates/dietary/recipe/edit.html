@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+	<div class="wrapper wrapper-content ">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-content">
+						<form class="form-horizontal m-t" id="signupForm">
+						<input id="ID" name="ID" th:value="${recipe.ID}"  type="hidden">
+							<div class="form-group">	
+								<label class="col-sm-3 control-label">菜品编号：</label>
+								<div class="col-sm-8">
+									<input id="number" name="number" th:value="${recipe.number}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">：</label>
+								<div class="col-sm-8">
+									<input id="name" name="name" th:value="${recipe.name}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">菜系：</label>
+								<div class="col-sm-8">
+									<input id="classification" name="classification" th:value="${recipe.classification}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">价格：</label>
+								<div class="col-sm-8">
+									<input id="price" name="price" th:value="${recipe.price}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">营养指数：</label>
+								<div class="col-sm-8">
+									<input id="index" name="index" th:value="${recipe.index}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">做法：</label>
+								<div class="col-sm-8">
+									<input id="practice" name="practice" th:value="${recipe.practice}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">图片：</label>
+								<div class="col-sm-8">
+									<input id="imagepath" name="imagepath" th:value="${recipe.imagepath}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">创作者：</label>
+								<div class="col-sm-8">
+									<input id="creator" name="creator" th:value="${recipe.creator}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">创作时间：</label>
+								<div class="col-sm-8">
+									<input id="createtime" name="createtime" th:value="${recipe.createtime}" class="form-control" type="text">
+								</div>
+							</div>
+														<div class="form-group">	
+								<label class="col-sm-3 control-label">备注：</label>
+								<div class="col-sm-8">
+									<input id="remarks" name="remarks" th:value="${recipe.remarks}" class="form-control" type="text">
+								</div>
+							</div>
+																					<div class="form-group">
+								<div class="col-sm-8 col-sm-offset-3">
+									<button type="submit" class="btn btn-primary">提交</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div th:include="include::footer"></div>
+	<script type="text/javascript" src="/js/appjs/dietary/recipe/edit.js">
+	</script>
+</body>
+</html>

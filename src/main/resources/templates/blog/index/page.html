@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.omg.org/spec/BPMN/20100524/MODEL">
+<meta charset="utf-8">
+<body>
+
+	<div id="content" class="summernote"></div>
+
+	<script type="text/javascript" th:inline="javascript">
+		$().ready(function() {
+			$('.summernote').summernote({
+				lang : 'zh-CN'
+			});
+			var content = /*[[${bContent.content}]]*/
+			$('#content').code(content);
+			$('.summernote').destroy();
+		});
+	</script>
+</body>
+</html>
